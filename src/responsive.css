@@ -1,27 +1,6 @@
 /* for-phone-only */
 
 
-
-@media (min-width: 1600px) {
-    .secondvh .all {
-        padding: 20px 10em;
-    }
-}
-
-/* for-medium-desktop-up */
-@media (min-width: 1400px) {
-    .secondvh .all .cards {
-        padding: 0;
-        width: 120%;
-    }
-    .secondvh .all {
-        padding: 20px 2em;
-    }
-    .secondvh .card1 {
-        scale: 0.9;
-    }
-}
-
 /* for-desktop-up */
 @media (max-width: 1399px) {
     .secondvh .all .cards {
