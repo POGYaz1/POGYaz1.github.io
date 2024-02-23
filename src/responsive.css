@@ -1,63 +1,77 @@
 /* for-phone-only */
-@media (max-width: 599px) {
-    
-        .header {
-            flex-direction: column;
-        }
-        .header .li {
-            display: flex;
-            justify-content: center;
-        }
-        .secondvh .all .cards {
-            padding: 0;
-        }
-        .secondvh .all {
-            flex-direction: column;
-            padding: 20px 2em;
-        }
-        .secondvh .aboutme {
-            padding: 0 2em;
-        }
-        .secondvh .card1 {
-            scale: 0.9;
-        }
-        .secondvh {
-            height: 200vh;
-        }
-        .skills {
-        }
-        .thirdvh {
-            height: 40vh;
-        }
-        .footer {
-            height: 100%;
-            width: 100%;
-            scale: 0.9;
-            padding: 5em 0;
-        }
-        #skills {
-            --bs-gutter-x: 0px;
-            width: 60%;
-        }
-        .contain {
-        }
-        .contain div {
-            padding: 10px 1.5em;
-        }
-        .contact1 {
-            flex-direction: column;
-            justify-content: center;
-        }
-        .footer .logo {
-            margin-left: 0px;
-            margin-bottom: 20px;
-        }
-     }
- 
 
+
+
+@media (min-width: 1600px) {
+    .secondvh .all {
+        padding: 20px 10em;
+    }
+}
+
+/* for-medium-desktop-up */
+@media (min-width: 1400px) {
+    .secondvh .all .cards {
+        padding: 0;
+        width: 120%;
+    }
+    .secondvh .all {
+        padding: 20px 2em;
+    }
+    .secondvh .card1 {
+        scale: 0.9;
+    }
+}
+
+/* for-desktop-up */
+@media (max-width: 1399px) {
+    .secondvh .all .cards {
+        padding: 0 5em;
+    }
+    .secondvh .all {
+        flex-direction: column;
+        padding: 20px 2em;
+    }
+    .secondvh .aboutme {
+        padding: 0 5em;
+    }
+    .secondvh .card1 {
+        scale: 0.8;
+    }
+    .secondvh {
+        height: 130vh;
+    }
+}
+
+/* for-tablet-landscape-up */
+@media (max-width: 1199px) {
+    .secondvh .all .cards {
+        padding: 5em 0;
+    }
+    .secondvh .all {
+        flex-direction: column;
+        padding: 20px 2em;
+    }
+    .secondvh .aboutme {
+        padding: 0 5em;
+    }
+    .secondvh .card1 {
+        scale: 0.9;
+    }
+    .secondvh {
+        height: 160vh;
+    }
+    .skills {
+        scale: 1;
+    }
+    .thirdvh {
+    }
+    .footer {
+        scale: 0.9;
+    }
+}
 
 /* for-tablet-portrait-up */
-@media (min-width: 600px) {
+@media (max-width: 899px) {
     .header {
         flex-direction: column;
     }
@@ -109,73 +123,169 @@
         margin-left: 0px;
         margin-bottom: 20px;
     }
- }
-
-
-/* for-tablet-landscape-up */
-@media (min-width: 900px) { 
-    .secondvh .all .cards {
-        padding: 5em 0;
-    }
-    .secondvh .all {
-        flex-direction: column;
-        padding: 20px 2em;
-    }
-    .secondvh .aboutme {
-        padding: 0 5em;
-    }
-    .secondvh .card1 {
-        scale: 0.9;
-    }
-    .secondvh {
-        height: 160vh;
-    }
-    .skills {
-        scale: 1.1;
-    }
-    .thirdvh {
-    }
-    .footer {
-        scale: 0.9;
-    }
 }
 
-
-/* for-desktop-up */
-@media (min-width: 1200px) {
-    .secondvh .all .cards {
-        padding: 0 5em;
-    }
-    .secondvh .all {
+@media (max-width: 599px) {
+    .header {
         flex-direction: column;
-        padding: 20px 2em;
     }
-    .secondvh .aboutme {
-        padding: 0 5em;
+    .header .li {
+        display: flex;
+        justify-content: center;
     }
-    .secondvh .card1 {
-        scale: 0.8;
-    }
-    .secondvh {
-        height: 130vh;
-    }
- }
-
-
-/* for-medium-desktop-up */
-@media (min-width: 1400px) { 
     .secondvh .all .cards {
         padding: 0;
-        width: 120%;
     }
     .secondvh .all {
+        flex-direction: column;
         padding: 20px 2em;
+    }
+    .secondvh .aboutme {
+        padding: 0 2em;
     }
     .secondvh .card1 {
         scale: 0.9;
     }
+    .secondvh {
+        height: 200vh;
+    }
+    .skills {
+    }
+    .thirdvh {
+        height: 40vh;
+    }
+    .footer {
+        height: 100%;
+        width: 100%;
+        scale: 0.9;
+        padding: 5em 0;
+    }
+    #skills {
+        --bs-gutter-x: 0px;
+        width: 60%;
+    }
+    .contain {
+    }
+    .contain div {
+        padding: 10px 1.5em;
+    }
+    .contact1 {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer .logo {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
 }
 
-@media (min-width: 2100px) {
+@media (max-width: 540px) {
+    .conact .content {
+        font-size: 0.9em;
+    }
+    .header {
+        flex-direction: column;
+    }
+    .header .li {
+        display: flex;
+        justify-content: center;
+    }
+    .secondvh .all .cards {
+        padding: 0;
+    }
+    .secondvh .all {
+        flex-direction: column;
+        padding: 20px 2em;
+    }
+    .secondvh .aboutme {
+        padding: 0 2em;
+    }
+    .secondvh .card1 {
+        scale: 0.9;
+    }
+    .secondvh {
+        height: 200vh;
+    }
+    .skills {
+    }
+    .thirdvh {
+        height: 50vh;
+    }
+    .footer {
+        height: 100%;
+        width: 100%;
+        scale: 0.9;
+        padding: 5em 0;
+    }
+    #skills {
+        --bs-gutter-x: 0px;
+        width: 60%;
+    }
+    .contain {
+    }
+    .contain div {
+        padding: 10px 1.5em;
+    }
+    .contact1 {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer .logo {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+}
 
+@media (max-width: 470px) {
+    .header {
+        flex-direction: column;
+    }
+    .header .li {
+        display: flex;
+        justify-content: center;
+    }
+    .secondvh .all .cards {
+        padding: 0;
+    }
+    .secondvh .all {
+        flex-direction: column;
+        padding: 20px 2em;
+    }
+    .secondvh .aboutme {
+        padding: 0 2em;
+    }
+    .secondvh .card1 {
+        scale: 0.9;
+    }
+    .secondvh {
+        height: 230vh;
+    }
+    .skills {
+    }
+    .thirdvh {
+        height: 60vh;
+    }
+    .footer {
+        height: 100%;
+        width: 100%;
+        scale: 0.9;
+        padding: 5em 0;
+    }
+    #skills {
+        --bs-gutter-x: 0px;
+        width: 60%;
+    }
+    .contain {
+    }
+    .contain div {
+        padding: 10px 1.5em;
+    }
+    .contact1 {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer .logo {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
 }
